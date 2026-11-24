@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using System.Linq;
 using MemoryMatch.Core;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace MemoryMatch.Game
 {
@@ -239,8 +238,8 @@ namespace MemoryMatch.Game
             if (GUI.Button(new Rect(width / 2 - 150, 520, 300, 70), count >= 2 ? "スタート（Enter）" : "2席以上を選択", ButtonStyle(28)))
                 StartMatch();
             GUI.enabled = true;
-            if (GUI.Button(new Rect(20, 20, 260, 50), "◀ 4×4モードへ", ButtonStyle(22)))
-                SceneManager.LoadScene("MemoryMatch");
+            if (GUI.Button(new Rect(20, 20, 260, 50), "◀ ゲーム選択へ", ButtonStyle(22)))
+                TitleApp.BackToMenu();
             GUI.Label(new Rect(0, 630, width, 40), "操作: クリック / 矢印キー＋Space ・ R: もう一回 ・ Esc: 席設定へ", Style(20, font: FontStyle.Normal));
         }
 

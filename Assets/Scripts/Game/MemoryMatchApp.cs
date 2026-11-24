@@ -191,8 +191,8 @@ namespace MemoryMatch.Game
             if (GUI.Button(new Rect(width / 2 - 150, 540, 300, 70), count >= 2 ? "スタート（Enter）" : "2席以上を選択", ButtonStyle(28)))
                 StartMatch();
             GUI.enabled = true;
-            if (GUI.Button(new Rect(width - 330, 20, 310, 50), "ペアめくりパーティへ ▶", ButtonStyle(22)))
-                UnityEngine.SceneManagement.SceneManager.LoadScene("CardMatch");
+            if (GUI.Button(new Rect(20, 20, 260, 50), "◀ ゲーム選択へ", ButtonStyle(22)))
+                TitleApp.BackToMenu();
             GUI.Label(new Rect(0, 640, width, 40), "操作: クリック / 矢印キー＋Space ・ R: 最初から ・ Esc: 席設定へ", Style(20, font: FontStyle.Normal));
         }
 
