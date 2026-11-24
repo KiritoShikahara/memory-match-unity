@@ -1,0 +1,16 @@
+{
+    "name": "MemoryMatch.Game",
+    "rootNamespace": "MemoryMatch.Game",
+    "references": [
+        "MemoryMatch.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

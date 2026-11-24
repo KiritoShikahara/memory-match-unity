@@ -1,0 +1,23 @@
+{
+    "name": "MemoryMatch.Tests.PlayMode",
+    "rootNamespace": "MemoryMatch.Tests",
+    "references": [
+        "MemoryMatch.Core",
+        "MemoryMatch.Game",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

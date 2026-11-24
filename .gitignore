@@ -1,3 +1,15 @@
 docs/
 .orchestrator/
 roc-solo-*.cmd
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+*.csproj
+*.sln
+*.slnx
+.vs/
+test-results.xml
+.unity/
